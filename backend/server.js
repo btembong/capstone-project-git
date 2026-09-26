@@ -9,8 +9,8 @@ app.use(express.json());
 
 // Dummy tasks array simulating a database
 let tasks = [
-    { id: 1, title: "Git Workflow Simulation" },
-    { id: 2, title: "Render Cloud Deployment Testing" }
+    { id: 1, title: "Git Workflow Simulation end of day" },
+    { id: 2, title: "Render Cloud Deployment Testing" :}
 ];
 
 // GET Route to fetch tasks
