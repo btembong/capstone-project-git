@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capstone Task Manager Simulation</title>
+    <style>
+        body { font-family: sans-serif; max-width: 450px; margin: 50px auto; padding: 20px; background-color: #fafafa; }
+        h2 { color: #333; }
+        form { display: flex; gap: 10px; margin-bottom: 20px; }
+        input { flex: 1; padding: 10px; border: 1px solid #ccc; border-radius: 4px; }
+        button { padding: 10px 20px; background-color: #28a745; color: white; border: none; border-radius: 4px; cursor: pointer; }
+        button:hover { background-color: #218838; }
+        li { padding: 12px; margin-bottom: 8px; background: white; border: 1px solid #eee; border-radius: 4px; list-style: none; }
+    </style>
+</head>
+<body>
+    <h2>Capstone Task Manager</h2>
+    <p style="color: #666; font-size: 0.9em;">Workflow & Deployment Simulation App</p>
+    
+    <form id="task-form">
+        <input type="text" id="task-input" placeholder="Enter a simulated task..." required>
+        <button type="submit">Add</button>
+    </form>
+
+    <ul id="task-list" style="padding: 0;"></ul>
+
+    <script src="app.js"></script>
+</body>
+</html>
